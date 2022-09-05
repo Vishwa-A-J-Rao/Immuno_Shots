@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css'><link rel="stylesheet" href="./login.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	
+<img class="wave" src="https://raw.githubusercontent.com/sefyudem/Responsive-Login-Form/master/img/wave.png">
+	<div class="containerone">
+		<div class="img">
+			<img src="vaccination.png">
+		</div>
+<div class="container white z-depth-2">
+	<ul class="tabs teal">
+		<li class="tab col s3"><a class="white-text active" href="#asha">asha</a></li>
+		<li class="tab col s3"><a class="white-text" href="#mother">mother</a></li>
+		<li class="tab col s3"><a class="white-text" href="#admin">admin</a></li>
+	</ul>
+	<div id="asha" class="col s12">
+		<form class="col s12">
+			<div class="form-container">
+				<h3 class="teal-text">Asha Login</h3>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="email" type="email" class="validate">
+						<label for="email">Asha ID</label>
+					</div>
+				</div>
+				<center>
+					<button class="btn waves-effect waves-light teal" type="submit" name="action">Receive OTP</button>
+				</center>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="password" type="password" class="validate">
+						<label for="password">OTP</label>
+					</div>
+				</div>
+				<br>
+				<center>
+					<button class="btn waves-effect waves-light teal" type="submit" name="action"><a href="details.html" style="text-decoration:none; color: inherit;">Connect</a></button>
+					<br>
+					<br>
+				</center>
+			</div>
+		</form>
+	</div>
+	<div id="mother" class="col s12">
+		<form class="col s12">
+			<div class="form-container">
+				<h3 class="teal-text">Welcome</h3>
+				<div class="row">
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="email" type="email" class="validate">
+							<label for="email">Asha ID</label>
+						</div>
+					</div>
+					<center>
+						<button class="btn waves-effect waves-light teal" type="submit" name="action">Receive OTP</button>
+					</center>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="password" type="password" class="validate">
+							<label for="password">OTP</label>
+						</div>
+					</div>
+					<br>
+					<center>
+						<button class="btn waves-effect waves-light teal" type="submit" name="action"><a href="upload.html" style="text-decoration:none; color: inherit;">Connect</a></button>
+						<br>
+						<br> 
+					</center>
+				</div>
+			</div>
+		</form>
+	</div>
+    <div id="admin" class="col s12">
+		<form class="col s12">
+			<div class="form-container">
+				<h3 class="teal-text">Hello</h3>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="email" type="email" class="validate">
+						<label for="email">Email</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="password" type="password" class="validate">
+						<label for="password">Password</label>
+					</div>
+				</div>
+				<br>
+				<center>
+					<button class="btn waves-effect waves-light teal" type="submit" name="action">Connect</button>
+					<br>
+					<br>
+				</center>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- partial -->
+<script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js'></script>
+<script  src="./login.js"></script>
+
+</body>
+</html>

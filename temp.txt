@@ -1,0 +1,43 @@
+1st Page:
+CONTENTS
+    Login:  
+        Asha
+        Mother
+        Admin
+
+
+2nd PAGE
+MOTHERS NAME & ID:
+    name 
+    address
+    ph no
+    id proof
+    child no
+    Months
+    Hospital (govt or private) name(govt)
+    Reschedule
+
+UPCOMING:
+    Due Date
+    Mothers name
+    Expand 
+
+Schedule (Vaccine):
+    Mother ID (input)
+    Codition Check 
+    Fetch Month Details
+    PHC List
+
+ADD (mother):
+    name 
+    address
+    ph no
+    id proof
+    child no
+    Months
+    Hospital (govt or private) name(govt)
+    Month 
+
+VACCINATED:
+    All details with search bar
+
